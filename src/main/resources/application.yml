@@ -1,0 +1,7 @@
+server:
+  port: 8089
+  max-http-header-size: 52428800
+  ssl:
+    key-store: 4911774_www.yundingxikj.cn.pfx
+    key-store-password: ye8gB5kY
+    keyStoreType: PKCS12

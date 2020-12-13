@@ -74,3 +74,46 @@
     box-shadow: 10px 10px 20px rgba(0, 0, 0, .2);
 }
 
+
+/* 帮助我们 */
+.box-content .help-tit{
+    font-size: 22px;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 25px;
+}
+.box-content .help-tit::before{
+    content: '';
+    width: 140px;
+    height: 2px;
+    background-color: #C7000B;
+    position: absolute;
+    top: 39px;
+    left: 0;
+}
+.box-content .lianxi{
+    margin-bottom: 20px;
+}
+.box-content .help-box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.box-content .help-box img{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 30%;
+    left: 19%;
+}
+.contmeth{
+    display: flex;
+    height: 209px;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 40px;
+}

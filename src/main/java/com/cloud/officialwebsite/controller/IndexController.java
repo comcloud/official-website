@@ -2,7 +2,6 @@ package com.cloud.officialwebsite.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * @author 成都犀牛
@@ -28,10 +27,6 @@ public class IndexController {
     @RequestMapping(value = "/coop")
     public String goToCoop(){
         return "official-website/ydx-coop";
-    }
-    @RequestMapping(value = "/foundation")
-    public String goToFoundation(){
-        return "official-website/dev-foundation";
     }
     @RequestMapping(value = "/about")
     public String goAbout1(){
